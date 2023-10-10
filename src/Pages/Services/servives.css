@@ -1,0 +1,125 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.hero-title {
+  margin-top: 10rem;
+  font-size: x-large;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.graph {
+  height: 80vh;
+  width: 60vw;
+  margin: 6rem auto;
+}
+
+.our-core-service img {
+  width: 35vw;
+  height: 40vh;
+  object-fit: cover;
+  margin: 2rem 0 4rem;
+}
+
+.service-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto;
+}
+.text-wrapper {
+  text-align: left;
+}
+
+.text-wrapper h4 {
+  text-transform: uppercase;
+  margin: 2.2rem 0 1rem;
+}
+
+.service-para {
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  text-align: start;
+}
+
+.bullet2 {
+  list-style-type: disc;
+  line-height: 2;
+  margin-left: 30px;
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  text-align: start;
+}
+
+.service-details-wrapper {
+  width: 80vw;
+  margin: 4rem auto;
+  text-align: left;
+}
+
+.service-details-wrapper p {
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  text-align: start;
+  margin: 0.7rem 0;
+}
+
+.service-details-wrapper h4 {
+  text-transform: uppercase;
+}
+
+.align {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-details img {
+  width: 35vw;
+  height: 40vh;
+  object-fit: cover;
+  margin: 6.5rem 0 4rem;
+}
+
+.service-space {
+  padding-top: 4rem;
+}
+
+.service-wrapper-r {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.service-wrapper-r p {
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  text-align: start;
+  margin: 2rem 0 0 8rem;
+}
+
+.service-wrapper-l {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.service-wrapper-l p {
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  text-align: start;
+  margin: 2rem 8rem 0 0;
+}
+
+.service-end {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto 6rem;
+}

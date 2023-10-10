@@ -1,0 +1,39 @@
+.header h2 {
+  margin: 8rem 0 2rem;
+}
+
+.name {
+  text-align: left;
+  /* padding: 3rem 0 3rem 1rem; */
+}
+
+.name p {
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.img {
+  margin: 20px 250px 0 0 ;
+}
+
+.img img{
+  aspect-ratio: 1/1;
+  height: 100px;
+}
+
+.info{
+  text-align: right;
+}
+
+.info p{
+  font-size: 15px;
+}
+
+.teamSpacing{
+  margin-top: 5rem;
+}
+
+.bottomSpacing{
+  margin-bottom: 8rem;
+
+}

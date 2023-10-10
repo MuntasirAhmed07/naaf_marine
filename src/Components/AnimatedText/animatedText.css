@@ -1,0 +1,6 @@
+.anmation-wrapper {
+  overflow: hidden;
+  display: flex;
+  font-size: 5rem;
+  font-weight: 700;
+}

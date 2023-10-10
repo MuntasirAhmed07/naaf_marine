@@ -1,0 +1,59 @@
+.card {
+  width: 35vw;
+  overflow: hidden;
+}
+
+.imgbox img {
+  width: 35vw;
+  height: 28vh;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out;
+}
+
+.imgbox img:hover {
+  transform: scale(1.1);
+}
+
+.upper-portion {
+  background-color: var(--white);
+}
+.title {
+  color: var(--primary-color);
+  padding: 0.5rem 0;
+}
+
+.lower-portion p {
+  margin: 2em 0;
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+}
+
+@media screen and (max-width: 960px) {
+  .title {
+    font-size: 10px;
+  }
+  .card {
+    width: 55vw;
+  }
+  .imgbox img {
+    width: 55vw;
+    height: 28vh;
+    object-fit: cover;
+  }
+  .lower-portion p {
+    margin: 2em 0;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .left img {
+    height: 475px;
+    width: 280px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .left img {
+    height: 475px;
+    width: 280px;
+  }
+}

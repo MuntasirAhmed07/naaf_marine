@@ -1,0 +1,13 @@
+.text-container {
+  display: block;
+  text-align: center;
+  margin: 25vh 0;
+}
+
+.inline {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  margin-bottom: 2rem;
+  letter-spacing: 5px;
+}

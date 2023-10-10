@@ -1,0 +1,63 @@
+.header h2 {
+  margin: 8rem 0 2rem;
+}
+
+.header h4 {
+  text-align: left;
+}
+
+.registration {
+  width: 80vw;
+  margin: 2rem auto;
+}
+
+.about-us img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.reg-para {
+  width: 80vw;
+  margin: 2rem auto 10px;
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  text-align: start;
+}
+
+.bullet {
+  list-style-type: disc;
+  width: 80vw;
+  margin: 0 auto;
+  padding-left: 25px;
+  line-height: 2;
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  text-align: start;
+}
+
+.about-us img {
+  width: 80vw;
+  height: 70vh;
+}
+
+.about-us p {
+  width: 80vw;
+  margin: 2rem auto;
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  text-align: start;
+}
+
+.reg-img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.reg-imgbox img {
+  width: 35vw;
+  height: 32vh;
+  object-fit: contain;
+  margin: 2rem 0 4rem;
+}

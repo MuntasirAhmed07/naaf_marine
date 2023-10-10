@@ -1,0 +1,72 @@
+.fleet-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.fleet-container h2 {
+  margin: 8rem 0 4rem;
+}
+
+.fleet-container h4 {
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0;
+}
+
+.fleet-stat {
+  aspect-ratio: 16/9;
+  height: 500px;
+  margin: 2rem auto 4rem;
+}
+
+.fleet-graph {
+  aspect-ratio: 16/9;
+  margin: 2rem auto 4rem;
+}
+
+
+.fleet-end {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto 6rem;
+}
+
+.fleet-text-wrapper {
+  text-align: left;
+}
+
+.fleet-bullet {
+  list-style-type: disc;
+  line-height: 2;
+  margin-left: 30px;
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  text-align: start;
+}
+
+.partnership-concept p {
+  font-weight: bold;
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+.fleet-service-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.fleet-service-wrapper h4 {
+  margin: 0.6rem 0;
+}
+
+.fleet-top-spacing {
+  margin-top: 3rem;
+}
+
+.fleet-para {
+  font-family: var(--font-secondary);
+  color: var(--secondary-color);
+  text-align: start;
+  padding-right: 2rem;
+}

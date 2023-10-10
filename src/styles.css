@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Syncopate:wght@400;700&display=swap");
+
+:root {
+  --font-primary: "Syncopate", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+  --white: white;
+  --primary-color: #18638e;
+  --secondary-color: #8bb1c7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  /* background-color: var(--primary-color); */
+  background-image: linear-gradient(
+    to right top,
+    #122a38,
+    #133447,
+    #143f56,
+    #154966,
+    #165477,
+    #165477,
+    #165477,
+    #165477,
+    #154966,
+    #143f56,
+    #133447,
+    #122a38
+  );
+  font-family: var(--font-primary);
+  text-align: center;
+  color: var(--white);
+}
+
+/* 
+.block {
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 200px;
+  width: 200px;
+  color: #333;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
